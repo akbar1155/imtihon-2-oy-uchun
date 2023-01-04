@@ -1,0 +1,35 @@
+.container {
+  width: 1250px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../fonts/space-mono-v12-latin-regular.woff2") format("woff2"), url("../../fonts/space-mono-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../../fonts/space-mono-v12-latin-700.woff2") format("woff2"), url("../../fonts/space-mono-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  src: local(""), url("../../fonts/lexend-deca-v17-latin-regular.woff2") format("woff2"), url("../../fonts/lexend-deca-v17-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Space Mono";
+}/*# sourceMappingURL=main.css.map */
