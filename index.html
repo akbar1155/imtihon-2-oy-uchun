@@ -6,17 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./scss/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <div></div>
-            <div></div>
-        </nav>
+    
+    <header class="header df">
+        <div class="container df">
+            <div class="dropdown header__dropdown">
+                <button class="btn btn-secondary dropdown-toggule" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Location</a></li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                </ul>
+              </div>
+            <a href="/" class="he">
+                <img src="./images/scoot.svg" alt="">
+            </a>
+            <nav class="header__nav df">
+                <ul class="header__nav__pages df">
+                    <li class="linav-item">About</li>
+                    <li class="linav-item">Location</li>
+                    <li class="linav-item">Careers</li>
+                </ul>
+                <button class="header__nav__btn button">Get Scootin</button>
+            </nav>
+        </div>
     </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
