@@ -1,0 +1,70 @@
+.section-twoo {
+    gap: 20px;
+    position: relative;
+    top: -64px;
+
+    &__div1 {
+        &__div {
+            &__h2 {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                /* identical to box height, or 117% */
+
+                letter-spacing: -1.07143px;
+                margin-top: 30px;
+                color: #495567;
+
+            }
+
+            &__p1 {
+                margin-top: 10px;
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #939CAA;
+                background-color: aquamarine;
+            }
+        }
+    }
+}
+
+.section-two__div1_div__h2 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.section-two__div1_div__p1 {
+    width: 350px;
+    height: 100px;
+    left: 165px;
+    top: 1097px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+
+    color: #939CAA;
+}
+
+.bg-1-img {
+    position: relative;
+    width: 1000px;
+    height: 10px;
+    margin-left: -165px;
+    margin-top: 116px;
+    background-image: url(../../images/bg-2.png);
+}

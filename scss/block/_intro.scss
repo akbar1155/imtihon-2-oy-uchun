@@ -1,0 +1,88 @@
+.section-three {
+    position: relative;
+    margin-bottom: 200px;
+
+    &__div1 {
+        justify-content: space-between;
+        margin-top: 100px;
+        position: relative;
+
+        &__div2>p {
+            width: 445px;
+            height: 100px;
+            left: 165px;
+            top: 1583px;
+
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            /* or 167% */
+            margin-bottom: 50px;
+
+            color: #939CAA;
+
+        }
+
+        &__div2>h3 {
+            width: 445px;
+            height: 96px;
+            left: 165px;
+            top: 1463px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            /* or 100% */
+
+            letter-spacing: -2.14286px;
+
+            color: #495567;
+        }
+
+        &__di2>button {
+            margin-top: 40px;
+        }
+    }
+}
+
+.bitmap-img {
+    border-radius: 50%;
+}
+
+.doira {
+    position: absolute;
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;
+    background: #E5ECF4;
+}
+
+.doira-rigth {
+    right: -509px;
+}
+
+.doira-left {
+    left: -509px;
+}
+
+.belgi-1 {
+    position: absolute;
+    right: -170px;
+    top: 300px;
+}
+
+.belgi-2 {
+    position: absolute;
+    left: -570px;
+    top: 30px;
+
+}
+
+.belgi-3 {
+    position: absolute;
+    right: -550px;
+    top: 60px;
+}

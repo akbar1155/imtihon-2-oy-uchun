@@ -1,0 +1,56 @@
+h4 {
+    width: 415px;
+    height: 96px;
+    left: 165px;
+    top: 3354px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+
+    letter-spacing: -2.14286px;
+
+    color: #FFFFFF;
+
+}
+
+footer {
+    background-color: #333A44;
+    height: 96px;
+    justify-content: space-between;
+}
+footer>div>nav>ul>li{
+    
+color: #939CAA;
+
+}
+.footerdiv1 {
+    justify-content: space-between;
+    padding-top: 100px;
+    height: 300px;
+    background-color: #495567;
+}
+
+.footerdiv2 {
+    gap: 20px;
+}
+.link{
+    gap: 20px;
+    font-size: 25px;
+}
+.link1{
+  
+    color: #FCB72B;
+    &:hover{
+        color: #939CAA;
+    }
+}
+.futerimg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+

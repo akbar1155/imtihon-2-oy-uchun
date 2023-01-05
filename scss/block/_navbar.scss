@@ -1,17 +1,23 @@
-.linav-text2{
+.linav-text2 {
     height: 25px;
-left: 0%;
-right: 81.53%;
-top: calc(50% - 25px/2);
+    left: 0%;
+    right: 81.53%;
+    top: calc(50% - 25px/2);
 
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 25px;
-/* identical to box height, or 167% */
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
 
 
-color: #939CAA;
+    color: #939CAA;
 
+
+
+}
+
+.linav-item:hover {
+    color: #FCB72B;
 }
